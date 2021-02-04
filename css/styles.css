@@ -136,6 +136,7 @@ footer nav a {
         flex: 2;
     }
     .intro-text {
+        font-size: large;
         padding: 5vh 1vh 5vh 0vh;
         text-align: left;
         flex: 3;
@@ -191,6 +192,9 @@ footer nav a {
     header nav ul li a {
         padding: 0em 0em 0em 1.5em;
     }
+    .intro-text {
+        font-size: x-large;
+    }
     .box1,
     .box2,
     .box4,
@@ -206,4 +210,8 @@ footer nav a {
     .break-pc {
         flex-basis: 100%;
     }
+}
+
+@media screen and (min-width: 1220px) {
+    
 }
